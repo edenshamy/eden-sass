@@ -1,0 +1,50 @@
+.content {
+    width: 85%;
+    min-height: 750px;
+    min-width: 600px;
+    background-color: $primary-color;
+
+    > * {
+      padding-left: 30px;
+    }
+
+    // specifying h4 font size
+    h4 {
+      font-size: 30px;
+    }
+  
+    p {
+      width: 55%;
+      min-width: 550px;
+      // increasing font size and adjusting line height
+      font-size: 20px;
+      line-height: 1.5;
+
+      a {
+        color: red;
+      }
+    }
+
+    img, video {
+      height: 350px;
+      width: 550px;
+      margin-bottom: 30px;
+    }
+
+    // adding a style to adjust show list
+    ul {
+      list-style-type: square;
+      list-style-position: inside;
+      line-height: 1.5;
+    }
+
+    a:link {
+      color: red;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+  }
